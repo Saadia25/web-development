@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        .flex-item{
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: rgb(211, 147, 219);
+        }
+        .flex-container{
+               display: flex;
+               gap:30px;
+               border: 1px solid black;
+               height: 300px;
+               justify-content:center;
+               align-items: center;
+               flex-wrap: wrap;
+               flex-direction:row;
+        }
+        #item1{
+            order: 3;
+            flex: 3 3;
+         flex-shrink:3 ;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="item1">tehreem</div>
+        <div class="flex-item" id="item2">saadia</div>
+        <div class="flex-item" id="item3">nazia</div>
+        <div class="flex-item" id="item4">saira</div>
+    </div>
+</body>
+</html>

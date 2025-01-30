@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(108, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table{
+    background-color: rgb(200, 210, 223);
+    width: 60%;
+    margin: auto;
+     border-collapse:collapse ; 
+}
+th,td{
+    border: 1px solid rgb(186, 108, 238);
+    padding: 10px;
+}
+th:hover{
+   background-color: rgb(134, 91, 184);
+   color: rgb(243, 237, 237);
+   text-align: left;
+  text-transform: capitalize;
+}
+ tr:hover{
+     background-color: rgb(181, 122, 236);
+     transition: 1s;
+ }
