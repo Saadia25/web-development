@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            margin:1000px  20px;
+        }
+        header{
+            top: 0;
+        }
+        footer{
+             bottom: 0;
+        }
+        .static{
+            position: static;
+            background-color: rgb(231, 236, 180);
+            padding: 20px;
+            border: 1px solid rgb(27, 95, 72);
+            margin: 10px;
+        }
+        .fixed{
+            background-color: rgb(148, 179, 236);
+            padding: 20px;
+            border: 1px solid rgb(69, 58, 233);
+            margin: 10px;
+            position: fixed;
+            width: 100%;
+        }
+        .relative{
+            background-color: rgb(164, 120, 221);
+            padding: 20px;
+            border: 1px solid rgb(92, 38, 117);
+            margin: 10px;
+            position: relative;
+            top: 300px;
+        }
+        .absolute{
+            background-color: rgb(209, 124, 198);
+            padding: 20px;
+            border: 1px solid rgb(27, 95, 72);
+            margin: 10px;
+        }
+        .sticky{
+            background-color: rgb(218, 102, 117);
+            padding: 20px;
+            border: 1px solid rgb(95, 44, 91);
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header class="fixed">
+        fixed header
+    </header>
+    <div class="container">
+   <div class="static">static position</div>
+   <div class="relative">relative position</div>
+   <div class="absolute">absolute position</div>
+   <div class="sticky">sticky position</div>
+   </div>
+   <footer class="fixed">
+    fixed footer
+   </footer>
+</body>
+</html>
