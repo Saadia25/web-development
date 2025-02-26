@@ -1,0 +1,17 @@
+body{
+    background-color: aqua;
+    padding: 50px;
+    justify-content: center;
+    text-align:center ;
+    font-family:Bebas Neue;
+}
+.btns{
+    color: rgba(32, 29, 29, 0.89);
+    background-color: rgba(236, 230, 230, 0.925));
+}
+.main{
+   
+    display: flex;
+    justify-content: center;
+    text-align:center ;
+}

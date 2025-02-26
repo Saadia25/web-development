@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let name = 'John';
+        const contact={
+            phoneNumber: '123456789',
+            email: 'loca@gmail.com',
+            name: 'John',
+            address:{
+                city:'karachi',
+                province:'sindh',
+                country: 'pakistan',
+            },
+            Location:{
+                longitude: '034.043km',
+                latitude: '034.043km',
+            },
+            greet(){
+                return `Hello ${this.name}.my email is ${this.email} `
+            }
+        };
+
+        // delete contact.email;
+
+        //  contact.linkedin = 'linkedin.com';
+        //    console.log(contact);
+        // console.table(contact);
+       console.log(contact.greet());
+       
+    //    let x=5;
+    //    let y=x;
+    //    y=6;
+    //    console.log(x);
+
+    // const contact2 = contact;
+    // contact2.name = 'Ali';
+    // console.log(contact.name);
+
+    const obj1 = {
+      massage:"Hello",}
+      const obj2 = obj1;
+      const obj3 = {
+          massage:"Hello",}
+          console.log(obj1 === obj2);
+          console.log(obj2 == obj3);
+
+    </script>
+</body>
+</html>

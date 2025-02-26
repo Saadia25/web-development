@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>java script</h1>
+    <p1>its just for revise</p1>
+    <a href="https://chatgpt.com/"><button>Enter if you  required something</button></a>
+    <script>
+        let person={
+            name:"John",
+            age:25,
+            city:"New York"
+        }
+        console.log(person);
+        // for(let key in person){
+        //     let element = person[key];
+        //     console.log(`The ${key} is ${element}`);  
+        // }
+        let personStr = JSON.stringify(person);
+        console.log(personStr);
+
+        let person1 = JSON.parse(personStr);
+        console.log(person1);
+        localStorage.setItem("person",personStr);
+        localStorage.removeItem("person");
+       
+        
+        
+    </script>
+</body>
+</html>

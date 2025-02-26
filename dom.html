@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working</title>
+</head>
+<body>
+    <button class="btn" id="id1" onclick="changeText()">Subscribe</button>
+    <button class="Colour" onclick="changeColour()">Change Colour</button>
+    <button class="btn3" id="id3" onclick="text()">reset your life</button>
+    <script>
+        console.log(document.title);
+        // let btn = document.getElementsByClassName()
+        // let btn = document.querySelector('#id1');
+        let btn = document.getElementById('id1');
+        function changeText() {
+            if (btn.textContent === 'Subscribe') {
+                btn.textContent = 'Subscribed';
+                btn.style.backgroundColor = 'red';
+                btn.style.color = 'white';
+            } else {
+                btn.textContent = 'Subscribe';
+                btn.style.backgroundColor = 'green';
+                btn.style.color = 'white';
+            }
+        }
+        let btn1=document.querySelector('.Colour');
+        function changeColour() {
+            if (btn1.style.backgroundColor === 'red') {
+                btn1.style.backgroundColor = 'blue';
+            } else {
+                btn1.style.backgroundColor = 'red';
+            }
+        }
+
+        let btn3 = document.getElementById('id3');
+        function text() {
+            if (btn3.textContent === 'reset your life') {
+                btn3.textContent = 'bsdk nhi hoti';
+                btn3.style.backgroundColor = 'red';
+                btn3.style.color = 'white';
+            } else {
+                btn3.textContent = 'Subscribe';
+                btn3.style.backgroundColor = 'green';
+                btn3.style.color = 'white';
+            }
+        }
+    </script>
+</body>
+</html>

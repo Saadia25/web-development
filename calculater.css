@@ -1,0 +1,33 @@
+.btns {
+    border: none;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 30px;
+    border-radius: 15px;
+    height: 60vh;
+    width: 40vw;
+}
+.btns {
+    margin: 5px;
+}
+body {
+    /* margin: 30px; */
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+
+}
+.btns:hover{
+    background-color: rgba(70, 70, 245, 0.815);
+    color: white;
+}

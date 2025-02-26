@@ -1,36 +1,25 @@
-for (let i = 0; i < 15; i++) {
-  console.log("hello");
-}
-
-
-for (let i = 15; i > 0; i--) {
-  console.log("for loop");
-}
-
-// for (let i = 1; i <= 15; i++) {
-//   console.log(i);
+// for(let i=0; i<5; i++){
+//  console.log("My name is Johne Deo" );
 // }
 
-// for (let i = 15; i > 0; i--) {
-//   console.log(i);
+
+
+// for(let i=10; i>0; i--){
+//     console.log('mera dhola ni aya dhola');     
 // }
 
-// let fruites = ["banana", "apple", "cherry"];
-// for (let i = 0; i < fruites.length; i++) {
-//   console.log(`${fruites[i]} is better than other`);
+// for(let i=0;i<=20;i+=2 ){
+//     console.log(i);   
+// }
+// for(let i=1;i<=20;i+=2 ){
+//     console.log(i);    
 // }
 
-let i = 0;
-while (i < 5) {
-  console.log("hello");
-  i++;
+
+let groceries = ['milk', 'eggs', 'bread', 'butter', 'sugar','coffee','tea','patato'];
+for(let i=0;i<groceries.length ; i++){
+console.log(`${groceries[i]}  is available`);
 }
 
-let number=[100,100,63,963,852,1200,8500,980]
-let sum=0;
-for(i=0; i<number.length; i++)
-{
-    sum=sum+number[i];
-}
-console.log(sum);
+
 
